@@ -159,6 +159,10 @@ p, button, span {
 }
 
 .product__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     background-color: var(--dark-cyan);
     color: var(--white);
     font-weight: 500;
